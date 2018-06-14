@@ -1,12 +1,13 @@
 """
-Prime Numbers Kata
+Word Counter Kata
 
-https://en.wikipedia.org/wiki/Prime_number
+A function that, given a delimited string, returns a collection of all of the unique words in it
+and the count of how many times they occurred.
 
-A prime number (or a prime) is a natural number greater than 1 that has no positive divisors other than 1 and itself.
-1 is an exception and is not considered a prime.
+Example::
 
-Write a function that takes a number and returns True if it's a prime.
+    >>> word_count('boom bang boom')
+    {'boom': 2, 'bang': 1}
 """
 import sys
 

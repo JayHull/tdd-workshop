@@ -1,12 +1,23 @@
 """
-Prime Numbers Kata
+Roman Numerals Kata
 
-https://en.wikipedia.org/wiki/Prime_number
+http://codingdojo.org/kata/RomanNumerals/
 
-A prime number (or a prime) is a natural number greater than 1 that has no positive divisors other than 1 and itself.
-1 is an exception and is not considered a prime.
+you should write a function to convert from normal numbers to Roman Numerals. eg::
 
-Write a function that takes a number and returns True if it's a prime.
+     1 --> I
+     10 --> X
+     7 --> VII
+     9 --> IX
+     10 --> X
+     19 --> XIX
+     40 --> XL
+     90 --> XC
+     369 --> CCCLXIX
+     1998 --> MCMXCVIII
+
+
+http://www.novaroma.org/via_romana/numbers.html
 """
 import sys
 
